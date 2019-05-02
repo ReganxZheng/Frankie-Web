@@ -164,6 +164,7 @@
   bottom: 0;
   padding:10px 0;
   font-weight: bolder;
+  word-wrap:break-word;
 }
 
 .skills-icon {
@@ -211,15 +212,68 @@
   visibility: hidden;
   z-index: -1111;
 }
+
+.quli-section {
+  position: relative;
+  width:100%;
+  background:#5d8be3;
+  padding:60px 0;
+}
+
+.quli-one {
+  position:relative;
+  margin:40px;
+  justify-content: center;
+}
+
+.quli-two {
+  position: relative;
+  margin:auto;
+  justify-content: center;
+}
+
+.quli-border {
+  width:60%;
+  height:2px;
+  margin:20px auto;
+  background:#00BCD4;
+}
+
+.quli-desc {
+  padding:0 0 0 10px;
+  margin:30px auto;
+}
+
+.quli-header h2{
+  font-size:32px;
+  text-align: center;
+}
+
+.quli-desc p {
+  color:#ddd;
+  text-align: center;
+}
 @media screen and (max-width:960px) {
   .skills-box {
     max-width: 45%;
   }
+
+  .contact-box:hover i {
+    transform: translateY(-70px);
+  }
 }
 
+@media screen and (max-width:560px) {
+  .contact-box:hover i {
+    transform: translateY(-150px);
+  }
+}
 @media screen and (max-width:768px) {
   .skills-box {
     max-width: 50%;
+  }
+  .contact-box:hover i{
+    transform: translateY(-80px);
   }
 }
 
