@@ -253,6 +253,47 @@
   color:#ddd;
   text-align: center;
 }
+
+.paper {
+  text-align: center;
+  padding:15px 15px;
+}
+.paper_title {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.progress {
+  width: 100%;
+  background: #ddd;
+  border-radius: 12px;
+}
+
+.progress_bar {
+  background: #e84118;
+  border-radius: 12px;
+  height:20px;
+}
+.p1 {
+  width:80%;
+}
+.p2 {
+  width:95%;
+}
+.p3 {
+  width:70%;
+}
+.p4 {
+  width:85%;
+}
+.p5 {
+  width:75%;
+}
+
+.progress_bar span {
+  float:right;
+  line-height: 20px;
+}
 @media screen and (max-width:960px) {
   .skills-box {
     max-width: 45%;
