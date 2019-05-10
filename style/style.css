@@ -98,6 +98,12 @@
   font-size: 40px;
 }
 
+.quli-title {
+  text-align: center;
+  color: #ddd;
+  text-transform: uppercase;
+  font-size: 40px;
+}
 .contact-title {
   text-align:center;
   color:#ddd;
