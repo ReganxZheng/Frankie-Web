@@ -278,7 +278,7 @@
   width:80%;
 }
 .p2 {
-  width:95%;
+  width:90%;
 }
 .p3 {
   width:70%;
@@ -289,7 +289,12 @@
 .p5 {
   width:75%;
 }
-
+.p6 {
+  width:80%;
+}
+.p7 {
+  width:95%;
+}
 .progress_bar span {
   float:right;
   line-height: 20px;
