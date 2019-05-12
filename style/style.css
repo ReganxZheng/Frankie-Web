@@ -276,7 +276,7 @@
 }
 
 .progress_bar {
-  background: #e84118;
+  background: red;
   border-radius: 12px;
   height:20px;
 }
