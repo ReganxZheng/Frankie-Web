@@ -65,30 +65,30 @@
   text-decoration: none;
 }
 
-
 .skills-section {
   background: url(skills.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 60px 0;
-  position:relative;
+  position: relative;
   width: 100%;
 }
 
 .contact {
-  background:#70a1ff;
-  width:100%;
+  background: #70a1ff;
+  width: 100%;
   position: relative;
-  padding:60px 0;
+  padding: 60px 0;
 }
+
 .inner-width {
   width: 100%;
   max-width: 1200px;
   margin: auto;
   padding: 0 30px;
   overflow: hidden;
-  z-index:1;
+  z-index: 1;
 }
 
 .section-title {
@@ -104,12 +104,14 @@
   text-transform: uppercase;
   font-size: 40px;
 }
+
 .contact-title {
-  text-align:center;
-  color:#ddd;
+  text-align: center;
+  color: #ddd;
   text-transform: uppercase;
-  font-size:40px;
+  font-size: 40px;
 }
+
 .border {
   width: 160px;
   height: 2px;
@@ -124,8 +126,8 @@
 }
 
 .contact-container {
-  display:flex;
-  flex-wrap:wrap;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -140,37 +142,37 @@
 .contact-box {
   max-width: 33.33%;
   text-align: center;
-  width:33.33%;
-  height:200px;
+  width: 33.33%;
+  height: 200px;
   position: relative;
   cursor: pointer;
-  display:inline-block;
-  margin:auto;
-  color:#ddd;
+  display: inline-block;
+  margin: 0;
+  color: #ddd;
 }
 
-.contact-box i{
-  font-size:40px;
-  color:#ddd;
-  left:0;
-  top:0;
+.contact-box i {
+  font-size: 40px;
+  color: #ddd;
+  left: 0;
+  top: 0;
   position: absolute;
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 100%;
   line-height: 200px;
-  background:#1e90ff;
+  background: #1e90ff;
   z-index: 1;
-  transition: transform 0.6s;
+  transition: transform 0.6s linear;
 }
 
 .contact-box span {
   position: absolute;
   width: 100%;
-  left:0;
+  left: 0;
   bottom: 0;
-  padding:10px 0;
+  padding: 10px 0;
   font-weight: bolder;
-  word-wrap:break-word;
+  word-wrap: break-word;
 }
 
 .skills-icon {
@@ -200,9 +202,10 @@
   opacity: 0.8;
 }
 
-.contact-box:hover i{
-  transform: translateY(-50px);
+.contact-box:hover i {
+  transform: translateY(-45px);
 }
+
 .skills-title {
   font-size: 25px;
   text-transform: uppercase;
@@ -221,54 +224,56 @@
 
 .quli-section {
   position: relative;
-  width:100%;
-  background:#5d8be3;
-  padding:60px 0;
+  width: 100%;
+  background: #5d8be3;
+  padding: 60px 0;
 }
 
 .quli-one {
-  position:relative;
-  margin:40px;
+  position: relative;
+  margin: 40px;
   justify-content: center;
 }
 
 .quli-two {
   position: relative;
-  margin:auto;
+  margin: auto;
   justify-content: center;
 }
 
 .quli-border {
-  width:60%;
-  height:2px;
-  margin:20px auto;
-  background:#00BCD4;
+  width: 60%;
+  height: 2px;
+  margin: 20px auto;
+  background: #00BCD4;
 }
 
 .quli-desc {
-  padding:0 0 0 10px;
-  margin:30px auto;
+  padding: 0 0 0 10px;
+  margin: 30px auto;
 }
 
-.quli-header h2{
-  font-size:32px;
+.quli-header h2 {
+  font-size: 32px;
   text-align: center;
 }
 
 .quli-desc p {
-  color:#ddd;
+  color: #ddd;
   text-align: center;
 }
 
 .paper {
   text-align: center;
-  padding:15px 15px;
+  padding: 15px 15px;
 }
+
 .paper_title {
   text-align: center;
   color: #fff;
   margin-bottom: 10px;
 }
+
 .progress {
   width: 100%;
   background: #ddd;
@@ -278,86 +283,95 @@
 .progress_bar {
   background: red;
   border-radius: 12px;
-  height:20px;
-}
-.p1 {
-  width:80%;
-}
-.p2 {
-  width:90%;
-}
-.p3 {
-  width:70%;
-}
-.p4 {
-  width:85%;
-}
-.p5 {
-  width:75%;
-}
-.p6 {
-  width:80%;
-}
-.p7 {
-  width:95%;
-}
-.progress_bar span {
-  float:right;
-  line-height: 20px;
-}
-.preintro{
-  position: absolute;
-  top:12%;
-  height:5%;
-  width:100%;
-  margin:auto;
+  height: 20px;
 }
 
-.introdesc{
+.p1 {
+  width: 80%;
+}
+
+.p2 {
+  width: 90%;
+}
+
+.p3 {
+  width: 70%;
+}
+
+.p4 {
+  width: 85%;
+}
+
+.p5 {
+  width: 75%;
+}
+
+.p6 {
+  width: 80%;
+}
+
+.p7 {
+  width: 95%;
+}
+
+.progress_bar span {
+  float: right;
+  line-height: 20px;
+}
+
+.preintro {
+  position: absolute;
+  top: 12%;
+  height: 5%;
+  width: 100%;
+  margin: auto;
+}
+
+.introdesc {
   text-align: center;
   margin: auto;
-  color:#0097e6;
+  color: #0097e6;
   font-style: normal;
-  font-size:30px;
+  font-size: 30px;
 }
-.left{
-  position:absolute;
-  top:16.5%;
-  left:0%;
-  transform: translate(0,0);
+
+.left {
+  position: absolute;
+  top: 16.5%;
+  left: 0%;
+  transform: translate(0, 0);
   max-width: 50%;
-  width:50%;
+  width: 50%;
 }
 
 .right {
   position: absolute;
-  top:16.5%;
-  right:0%;
-  transform: translate(0,0);
+  top: 16.5%;
+  right: 0%;
+  transform: translate(0, 0);
   max-width: 50%;
-  width:50%;
+  width: 50%;
 }
 
 .card {
   cursor: pointer;
 }
 
-.front,.back{
+.front, .back {
   /* width:100%;
   height:100%; */
   overflow: hidden;
   backface-visibility: hidden;
   position: absolute;
   transition: transform 2.5s linear;
-
 }
 
 .front img {
-  height:100%;
+  height: 100%;
 }
 
 .back img {
-  height:100%;
+  height: 100%;
 }
 
 .front {
@@ -368,38 +382,41 @@
   transform: perspective(600px) rotateY(180deg);
 }
 
-.card:hover > .front {
+.card:hover>.front {
   transform: perspective(600px) rotateY(-180deg);
-  transition-timing-function:ease-in-out;
-}
-
-.card:hover > .back {
-  transform: perspective(600px) rotateY(0deg);
   transition-timing-function: ease-in-out;
 }
 
+.card:hover>.back {
+  transform: perspective(600px) rotateY(0deg);
+  transition-timing-function: ease-in-out;
+}
 
 @media screen and (max-width:960px) {
   .skills-box {
     max-width: 45%;
   }
+}
 
+@media screen and (max-width:1013px) {
   .contact-box:hover i {
-    transform: translateY(-70px);
+    transform: translateY(-80px);
   }
 }
 
-@media screen and (max-width:560px) {
-  .contact-box:hover i {
-    transform: translateY(-150px);
-  }
-}
 @media screen and (max-width:768px) {
   .skills-box {
     max-width: 50%;
   }
-  .contact-box:hover i{
+
+  .contact-box:hover i {
     transform: translateY(-80px);
+  }
+}
+
+@media screen and (max-width:542px) {
+  .contact-box:hover i {
+    transform: translateY(-105px);
   }
 }
 
@@ -407,9 +424,19 @@
   .skills-box {
     max-width: 100%;
   }
+
+  .contact-box:hover i {
+    transform: translateY(-110px);
+  }
 }
 
-@media screen and (max-width:830px) {
+@media screen and (max-width:404px) {
+  .contact-box:hover i {
+    transform: translateY(-140px);
+  }
+}
+
+@media screen and (max-width:850px) {
   .show-menu-btn, .hide-menu-btn {
     display: flex;
   }
