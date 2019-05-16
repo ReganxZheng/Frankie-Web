@@ -363,7 +363,7 @@
   overflow: hidden;
   backface-visibility: hidden;
   position: absolute;
-  transition: transform 2.5s linear;
+  transition: transform 2.5s ease-in;
 }
 
 .front img {
@@ -375,21 +375,21 @@
 }
 
 .front {
-  transform: perspective(600px) rotateY(0deg);
+  transform: perspective(1000px) rotateY(0deg);
 }
 
 .back {
-  transform: perspective(600px) rotateY(180deg);
+  transform: perspective(1000px) rotateY(180deg);
 }
 
 .card:hover>.front {
-  transform: perspective(600px) rotateY(-180deg);
-  transition-timing-function: ease-in-out;
+  transform: perspective(1000px) rotateY(-180deg);
+  /* transition-timing-function: ease-in-out; */
 }
 
 .card:hover>.back {
-  transform: perspective(600px) rotateY(0deg);
-  transition-timing-function: ease-in-out;
+  transform: perspective(1000px) rotateY(0deg);
+  /* transition-timing-function: ease-in-out; */
 }
 
 @media screen and (max-width:960px) {
