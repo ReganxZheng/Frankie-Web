@@ -1,38 +1,42 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="./style/style.css">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <title></title>
-  </head>
-  <body>
-    <div class="header">
-      <a class="head" href="index.html"><h2 class="logo">Frankie Zheng</h2></a>
-      <input type="checkbox" id="chk">
-      <label for="chk" class="show-menu-btn">
-        <i class="fas fa-chevron-circle-down"></i>
-      </label>
-      <ul class="menu">
-        <a href="index.html">Home</a>
-        <a href="cv.html">CV</a>
-        <a href="#">Project</a>
-        <a href="#">About</a>
-        <label for="chk" class="hide-menu-btn">
-          <i class="far fa-times-circle"></i>
-        </label>
-      </ul>
-    </div>
 
-    <div class="preintro">
-      <div class="inner-width">
-        <div class="introdesc">Tap On The Page to Filp</div>
-      </div>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./style/style.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <title></title>
+</head>
+
+<body>
+  <div class="header">
+    <a class="head" href="index.html">
+      <h2 class="logo">Frankie Zheng</h2>
+    </a>
+    <input type="checkbox" id="chk">
+    <label for="chk" class="show-menu-btn">
+      <i class="fas fa-chevron-circle-down"></i>
+    </label>
+    <ul class="menu">
+      <a href="index.html">Home</a>
+      <a href="cv.html">CV</a>
+      <a href="#">Project</a>
+      <a href="#">About</a>
+      <label for="chk" class="hide-menu-btn">
+        <i class="far fa-times-circle"></i>
+      </label>
+    </ul>
+  </div>
+
+  <div class="preintro">
+    <div class="inner-width">
+      <div class="introdesc">Tap On The Page to Filp</div>
     </div>
-    <div class="cv-images">
-      <div class="inner-width">
-        <div class="card left">
+  </div>
+  <div class="cv-images">
+      <div class="card-container">
+        <div class="card-box">
           <div class="front">
             <img src="./style/cvimages/cv_1.png" alt="">
           </div>
@@ -40,8 +44,7 @@
             <img src="./style/cvimages/cv_2.png" alt="">
           </div>
         </div>
-
-        <div class="card right">
+        <div class="card-box">
           <div class="front">
             <img src="./style/cvimages/cv_3.png" alt="">
           </div>
@@ -50,6 +53,7 @@
           </div>
         </div>
       </div>
-    </div>
-  </body>
+  </div>
+</body>
+
 </html>
