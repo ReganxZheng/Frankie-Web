@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script type="text/javascript" src="fib.js"></script>
+  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+</head>
+
+<body>
+  <div class="header">
+    <a class="head" href="index.html">
+      <h2 class="logo">
+        <i class="fas fa-code"></i> Frankie Zheng
+        <i class="fas fa-code"></i></h2>
+    </a>
+    <input type="checkbox" id="chk">
+    <label for="chk" class="show-menu-btn">
+      <i class="fas fa-chevron-circle-down"></i>
+    </label>
+
+    <ul class="menu">
+      <a href="../index.html">Home</a>
+      <a href="../cv.html">CV</a>
+      <a href="../project.html">Project</a>
+      <a href="../#">About</a>
+      <label for="chk" class="hide-menu-btn">
+        <i class="far fa-times-circle"></i>
+      </label>
+    </ul>
+  </div>
+
+  <div class="img"></div>
+  <div class="repo-section">
+    <div class="repo-box">
+      <h1>Registration Form</h1>
+      <div class="border"></div>
+      <form class="regisform">
+        <div class="regis">
+          <label class="regis_label">Username:</label>
+          <input type="text" class="regis_text" name="username" required value="">
+          <label class="regis_label">Password:</label>
+          <input type="text" class="regis_text" required name="pwd" value="">
+          <label class="regis_label">First name:</label>
+          <input type="text" class="regis_text" name="fname" value="">
+          <label class="regis_label">Last name: </label>
+          <input type="text" class="regis_text" name="lname" value="">
+          <label class="regis_label">Email: </label>
+          <input type="email" class="regis_text" name="email" value="">
+          <label class="regis_label">Address</label>
+          <input type="text" class="regis_text" name="address" value="">
+          <input type="submit" name="submit" class="regis_submit_btn" value="Submit">
+        </div>
+        <br /><br />
+        <div class="border1"></div>
+        <div class="fab">
+          <label class="fib_label">Enter fibonacci sequence: </label>
+          <input type="number" id="fib_num" class="fib_num" name="fibnum">
+          <input type="button" class="fib_btn" value="Fibonacci" onclick="fib(fibnum.value-1)">
+        </div>
+        <div id="result" class="result"></div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

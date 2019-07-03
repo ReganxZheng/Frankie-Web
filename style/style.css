@@ -394,6 +394,63 @@
   /* transition-timing-function: ease-in-out; */
 }
 
+.project-section {
+  width:100%;
+  position: relative;
+  padding:30px 0;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-box {
+  max-width: 50%;
+  width: auto;
+  padding:10px;
+  border: 1px solid black;
+  height: auto;
+}
+
+.project-title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.project-button {
+  padding:30px 0;
+  position: relative;
+  text-align: center;  
+  border:1px solid black;
+  bottom: 0px;
+}
+
+.project-desc {
+  height:auto;
+  padding: 25px 10px;
+}
+
+.project-box p{
+  text-align: center;
+  word-wrap:break-word;
+}
+
+.project-button a {
+  text-decoration: none;
+  border:3px #ff7979 solid;
+  border-radius: 20px;
+  padding:7px 20px;
+  color:#ff7979;
+  bottom: 0;
+}
+
+.project-button a:hover {
+  background: #ff7979;
+  color:#fff;
+}
+
 @media screen and (max-width:960px) {
   .skills-box {
     max-width: 45%;
