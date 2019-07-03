@@ -186,6 +186,10 @@ body, html {
   transition: 0.5s;
 }
 
+.fib_num:focus {
+  box-shadow: 0 0 10px 4px #0984e3;
+}
+
 .fib_btn {
   border: 0;
   background: #0984e3;
