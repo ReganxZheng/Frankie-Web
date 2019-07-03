@@ -3,10 +3,12 @@
   visibility: hidden;
   z-index: -1111;
 }
-body,html{
-    height:100%;
-    margin:0;
+
+body, html {
+  height: 100%;
+  margin: 0;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -76,29 +78,28 @@ body,html{
 
 .img {
   background: url(cloud.jpg);
-  background-size:cover;
+  background-size: cover;
   background-position: center;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   filter: blur(5px);
   -webkit-filter: blur(5px);
-  height:100%;
+  height: 100%;
 }
 
 .repo-section {
   position: absolute;
-  top:55%;
-  left:50%;
-  transform: translate(-50%,-50%);
-  height:90%;
-  padding:50px;
-  width:100%;
-
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 90%;
+  padding: 50px;
+  width: 100%;
 }
 
 .repo-box {
   padding: 10px 0 30px;
-  width:80%;
-  margin:0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .border {
@@ -110,33 +111,33 @@ body,html{
 
 .repo-box h1 {
   text-align: center;
-  color:#fff;
-  padding:0 0 15px;
-  font-family:cursive;
+  color: #fff;
+  padding: 0 0 15px;
+  font-family: cursive;
 }
 
 .regisform {
   max-width: 700px;
-  margin:auto;
-  padding:0 10px 30px;
+  margin: auto;
+  padding: 0 10px 30px;
   overflow: hidden;
-  height:100%;
+  height: 100%;
 }
 
 .regis_label {
   display: block;
   font-size: 17px;
-  color:#fff;
-  margin:5px 0;
-  padding:2px 0;
+  color: #fff;
+  margin: 5px 0;
+  padding: 2px 0;
 }
 
 .regis_text {
   display: block;
   font-size: 17px;
-  width:30%;
-  border:0;
-  padding:5px 5px;
+  width: 30%;
+  border: 0;
+  padding: 5px 5px;
   position: relative;
   outline: none;
   transition: 0.5s;
@@ -144,19 +145,19 @@ body,html{
 }
 
 .regis_text:focus {
-  border:1px;
+  border: 1px;
   border-radius: 20px;
-  width:75%;
-  padding-left:13px;
+  width: 75%;
+  padding-left: 13px;
   box-shadow: 0 0 10px 4px #e55039;
 }
 
-.regis_submit_btn{
-  float:right;
+.regis_submit_btn {
+  float: right;
   border: 0;
-  background:#c23616;
-  color:#fff;
-  padding:12px 50px;
+  background: #c23616;
+  color: #fff;
+  padding: 12px 50px;
   border-radius: 20px;
   font-size: 15px;
   margin-bottom: 15px;
@@ -170,16 +171,16 @@ body,html{
 .fib_label {
   display: block;
   font-size: 17px;
-  color:#fff;
-  margin:5px 0;
-  padding:2px 0;
+  color: #fff;
+  margin: 5px 0;
+  padding: 2px 0;
 }
 
 .fib_num {
   font-size: 17px;
-  width:50%;
-  border:0;
-  padding:5px 5px;
+  width: 50%;
+  border: 0;
+  padding: 5px 5px;
   position: relative;
   outline: none;
   transition: 0.5s;
@@ -187,9 +188,9 @@ body,html{
 
 .fib_btn {
   border: 0;
-  background:#0984e3;
-  color:#fff;
-  padding:12px 50px;
+  background: #0984e3;
+  color: #fff;
+  padding: 12px 50px;
   border-radius: 20px;
   font-size: 15px;
   cursor: pointer;
@@ -202,16 +203,17 @@ body,html{
 .border1 {
   width: 100%;
   height: 2px;
-  margin:20px 0;
+  margin: 20px 0;
   background: #82ccdd;
 }
 
 .result {
-  margin:10px 0;
-  color:#fff;
-  font-size:20px;
-  padding:10px 0;
+  margin: 10px 0;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 0;
 }
+
 @media screen and (max-width:850px) {
   .show-menu-btn, .hide-menu-btn {
     display: flex;
