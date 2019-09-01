@@ -237,7 +237,7 @@
 
 .quli-two {
   position: relative;
-  margin: auto;
+  margin: 40px;
   justify-content: center;
 }
 
@@ -303,7 +303,7 @@
 }
 
 .p5 {
-  width: 75%;
+  width: 80%;
 }
 
 .p6 {
@@ -409,7 +409,8 @@
   max-width: 50%;
   width: auto;
   padding:10px;
-  border: 1px solid black;
+  border: 2px dotted #ff7675;
+  border-radius: 25px;
   height: auto;
 }
 
@@ -422,8 +423,8 @@
 .project-button {
   padding:30px 0;
   position: relative;
-  text-align: center;  
-  border:1px solid black;
+  text-align: center;
+  /* border:1px solid black; */
   bottom: 0px;
 }
 
